@@ -7,7 +7,7 @@
 **Model includes two levels, one is front-end (or feature extraction). Another is segmentation network which is based on front-end**
 - [Front-end](./src/model/frontends) Dedicated to implement all of popular feature extraction model.
   
-  ##### *Finish Testing*
+  ##### *Basic Testing*
     
   - [ ] [Resnet_V1](./src/model/frontends/resnet_v1.py) 
   - [X] [Resnet_V2](./src/model/frontends/resnet_v2.py)
@@ -26,7 +26,7 @@
   
 - [Segmentation](./src/model/segmodels) Dedicated to implement all of popular Semantic Segmentation model.
   
-  ##### *Finish Testing*
+  ##### *Basic Testing*
   
   - [ ] [AdapNet](./src/model/segmodels/AdapNet.py)
   - [ ] [DeepLabV3](./src/model/segmodels/DeepLabV3.py)
@@ -35,6 +35,19 @@
   - [X] [Tiramisu](./src/model/segmodels/FC_DenseNet_Tiramisu.py)
   - [X] [MobileUnet](./src/model/segmodels/MobileUNet.py)
   - [X] [Encoder-Decoder](./src/model/segmodels/Encoder_Decoder.py)
+  
+
+### Architecture
+
++---benchmark  
++---dataset  
++---model  
+|   +---frontends  
+|   +---model_utils  
+|   \---segmodels  
+\---utils  
+
+
   
   
  
